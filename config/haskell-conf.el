@@ -2,6 +2,10 @@
 (require 'haskell-mode-autoloads)
 (add-to-list 'Info-default-directory-list "../lib/haskell-mode/")
 
+;; haskell-stylish works manually by default. See
+;; http://www.haskell.org/haskellwiki/Emacs/Formatting
+; (setq haskell-stylish-on-save t)
+
 ;; structured-haskell-mode disabled by default
 ; (live-add-pack-lib "structured-haskell-mode")
 ; (require 'shm)
