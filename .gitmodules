@@ -4,3 +4,6 @@
 [submodule "vendor/haskell-mode"]
 	path = vendor/haskell-mode
 	url = https://github.com/haskell/haskell-mode.git
+[submodule "vendor/structured-haskell-mode"]
+	path = vendor/structured-haskell-mode
+	url = https://github.com/chrisdone/structured-haskell-mode.git
